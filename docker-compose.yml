@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dpact:
+    build: .
+    volumes:
+      - ./authz_umichlib:/home/dpact/authz_umichlib
+
